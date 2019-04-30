@@ -22,7 +22,7 @@ pip install -r requirements.txt
 #### Elastic
 Navigate to the Elastic [download](https://www.elastic.co/downloads/) page and download the latest versions of Elasticsearch, Logstash, Kibana, and Filebeat. At the time of publishing, it is version 7.0.
 
-In the Logstash folder, add the `logstash.conf` file to the `/config/` directory. The config assumes you for PoC purposes that you are running on a single machine, so notice the use of localhost. The address can be changed to reflect different containers/vm configurations.
+In the Logstash folder, add the `logstash.conf` file to the `/config/` directory. The config assumes for PoC purposes that you are running on a single machine, so notice the use of localhost. The address can be changed to reflect different containers/vm configurations.
 
 In the Filebeat folder, replace the `filebeat.yml` file with the provided `filebeat.yml`. It is *important* that you modify the path in line 28 to reflect the location where you will be writing the phishing domains to.
 
