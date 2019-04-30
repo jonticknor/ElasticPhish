@@ -12,7 +12,7 @@ The folder contains a working phishing detection tool (prototype) and configurat
 #### Python
 The script was built using Python 3.7.3, but should work across Python 2 & 3 versions
 
-You will need to first install the following Python libraries: certstream, yaml, tld
+You will need to first install the following Python libraries: certstream, PyYAML, tld
 
 ```
 pip install -r requirements.txt
@@ -50,3 +50,14 @@ from filebeat folder, run: ./filebeat -e -c filebeat.yml
 ```
 python elasticphish.py
 ```
+
+
+## Phishing Detector
+The PoC phishing detection tool is a heuristic engine designed to detect phishing domains that are intended to trick users through the use of common brands and keywords. A list of brands and keywords was built by analyzing a large pool of known phishing domains from sources like PhishTank, OpenPhish, etc. and extracting the common lexicon. 
+
+In addition, the script utilizes the Umbrella 1M list to filter out well known domains, helping reduce false positives. The Spamhaus list of most dangerous TLDs is also added to the `scoring.yml` file to account for known "bad neighborhoods." 
+
+Although this approach is quite generic in complexity, it has been shown to detect over a thousand phishing domains per day from the CertStream feed alone, many of which have not been posted to other threat feeds (e.g. Umbrella, VirusTotal, Google Safe Browsing).
+
+The goal of the project was to show how a rich dataset could easily be used to detect emerging phishing domains, often as they are being built, and fully visualized using the Elastic stack. Users can easily replace the existing analytic capability and replace, or supplement, with their own. 
+
