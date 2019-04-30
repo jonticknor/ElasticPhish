@@ -1,0 +1,159 @@
+brands:
+    'adobe': 5
+    'alibaba': 5
+    'allstate': 5
+    'amazon': 5
+    'americanairlines': 5
+    'americanexpress': 5
+    'ameritrade': 5
+    'apple': 5
+    'appleid': 5
+    'bankofamerica': 5
+    'barclays': 5
+    'bbt': 5
+    'capitalone': 5
+    'centurylink': 5
+    'charlesschwab': 5
+    'chase': 4
+    'citibank': 5
+    'discovercard': 5
+    'dropbox': 5
+    'facebook': 5
+    'fifththirdbank': 5
+    'firstcitizens': 5
+    'flash': 5
+    'flickr': 5
+    'github': 5
+    'gmail': 5
+    'goldmansachs': 5
+    'google': 5
+    'hotmail': 5
+    'hsbc': 6
+    'icloud': 5
+    'iforgot': 5
+    'instagram': 5
+    'itunes': 5
+    'jetblue': 5
+    'libertymutual': 5
+    'linkedin': 5
+    'mastercard': 5
+    'microsoft': 5
+    'morganstanley': 5
+    'nationwide': 5
+    'netflix': 5
+    'office365': 5
+    'onedrive': 5
+    'outlook': 5
+    'overstock': 5
+    'paypal': 5
+    'pncbank': 5
+    'progressive': 5
+    'protonmail': 5
+    'scottrade': 5
+    'sharepoint': 5
+    'skype': 5
+    'statefarm': 5
+    'statestreet': 5
+    'tdameritrade': 5
+    'tumblr': 5
+    'twitter': 5
+    'unitedairlines': 5
+    'usairways': 5
+    'venmo': 5
+    'wachovia': 5
+    'washingtonmutual': 5
+    'wellsfargo': 5
+    'westernunion': 5
+    'whatsapp': 5
+    'windows': 5
+    'yahoo': 5
+
+keywords:
+    'account': 2
+    'activity': 2
+    'alert': 2
+    'authenticat': 2
+    'authorize': 2
+    'bank': 2
+    'click': 2
+    'confirm': 2
+    'credential': 2
+    'download': 2
+    'error': 2
+    'financial': 2
+    'forward': 2
+    'invoice': 2
+    'lock': 2
+    'login': 2
+    'log-in': 2
+    'mount': 2
+    'notification': 2
+    'notify': 2
+    'password': 2
+    'purchase': 2
+    'ransom': 2
+    'recover': 2
+    'secure': 2
+    'security': 2
+    'sign-in': 2
+    'signin': 2
+    'steal': 2
+    'support': 2
+    'transaction': 2
+    'unlock': 2
+    'update': 2
+    'upload': 2
+    'verif': 2
+    'virus': 2
+    'wallet': 2
+    'bill': 1
+    'check': 1
+    'clean': 1
+    'client': 1
+    'cloud': 1
+    'compute': 1
+    'consult': 1
+    'customer': 1
+    'file': 1
+    'form': 1
+    'health': 1
+    'help': 1
+    'hosting': 1
+    'inform': 1
+    'limited': 1
+    'live': 1
+    'load': 1
+    'manage': 1
+    'office': 1
+    'online': 1
+    'perform': 1
+    'portal': 1
+    'privacy': 1
+    'report': 1
+    'reserve': 1
+    'safe': 1
+    'server': 1
+    'service': 1
+    'solution': 1
+    'stream': 1
+    'user': 1
+
+zerotlds:
+    'com':
+    'gov':
+    'edu':
+    'mil':
+    'net':
+    'org':
+
+twotlds:
+    'date':
+    'gdn':
+    'loan':
+    'ltd':
+    'ooo':
+    'racing':
+    'shop':
+    'tokyo':
+    'work':
+    'world':
